@@ -14,7 +14,7 @@
 | Full Name | Student ID | Contributions |
 |---|---|---|
 | MUGISHA Yves | 20251SEN202 |  |
-|  | 20251SEN243 |  |
+| BWIZA Janviere | 20251SEN243 |  |
 
 ---
 
