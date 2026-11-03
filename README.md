@@ -1,9 +1,11 @@
 # Student Registration & Grading System – Oracle PL/SQL
 
-**Course:** Database Development with PL/SQL (INSY 8311)
-**Instructor:** Eric Maniraguha  **Teaching Assistant:** Afanyu Emmanuel
-**Assignment:** Group Assignment IV – Records, Collections, Cursors, Bulk Processing, Stored Procedures, Functions, and Exception Handling
-**Class Group:** `<I / B / C / D>`  **Deadline:** `<class day>, <date> November 2026, 11:59 PM`
+| | |
+|---|---|
+| **Course** | Database Development with PL/SQL (INSY 8311) |
+| **Instructor** | Eric Maniraguha |
+| **Teaching Assistant** | Afanyu Emmanuel |
+| **Group Assignment** | IV |
 
 ---
 
