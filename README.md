@@ -209,7 +209,7 @@ We ran and tested all the code ourselves, and both of us understand and can expl
 
 ---
 
-## 12. References
+## 12. References.
 
 - Lecture 06 – PL/SQL Collections and Records
 - Lecture 08 – Cursors: Implicit & Explicit
