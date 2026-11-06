@@ -165,27 +165,27 @@ Then run the scripts in this order:
 
 | # | Test | Expected Result | Screenshot |
 |---|---|---|---|
-| 1 | Register a new student | Student inserted, new ID returned | `register_student_output.png` |
-| 2 | Update a score | "1 row updated" message | `update_score_output.png` |
-| 3 | Drop an enrollment | "1 row deleted" message | `drop_enrollment_output.png` |
-| 4 | Print a transcript | Courses and scores listed | `transcript_output.png` |
-| 5 | Apply a grade curve | Scores updated, row count shown | `bulk_curve_output.png` |
-| 6 | Get GPA and letter grade | Correct values returned | `gpa_and_grade_output.png` |
-| 7 | Find a student by last name | Student details shown | `find_student_output.png` |
+| 1 | Register a new student | Student inserted, new ID returned | [register_student_output.png](screenshots/test_success_cases/register_student_output.png) |
+| 2 | Update a score | "1 row updated" message | [update_score_output.png](screenshots/test_success_cases/update_score_output.png) |
+| 3 | Drop an enrollment | "1 row deleted" message | [drop_enrollment_output.png](screenshots/test_success_cases/drop_enrollment_output.png) |
+| 4 | Print a transcript | Courses and scores listed | [transcript_output.png](screenshots/test_success_cases/transcript_output.png) |
+| 5 | Apply a grade curve | Scores updated, row count shown | [bulk_curve_output.png](screenshots/test_success_cases/bulk_curve_output.png) |
+| 6 | Get GPA and letter grade | Correct values returned | [gpa_and_grade_output.png](screenshots/test_success_cases/gpa_and_grade_output.png) |
+| 7 | Find a student by last name | Student details shown | [find_student_output.png](screenshots/test_success_cases/find_student_output.png) |
 
 ### Error Cases (`03_tests/test_error_cases.sql`)
 
 | # | Test | Expected Exception | Screenshot |
 |---|---|---|---|
-| 1 | Register a student with a duplicate email | `DUP_VAL_ON_INDEX` | `error_duplicate_email_output.png` |
-| 2 | Update the score of a non-existent enrollment | User-defined exception | `error_update_score_output.png` |
-| 3 | Drop a non-existent enrollment | `RAISE_APPLICATION_ERROR` | `error_drop_enrollment_output.png` |
-| 4 | Transcript for an unknown student | `NO_DATA_FOUND` | `error_no_data_found_output.png` |
-| 5 | Find a last name shared by two students | `TOO_MANY_ROWS` | `error_too_many_rows_output.png` |
-| 6 | Curve that pushes some scores above 100 | `SAVE EXCEPTIONS` (failed rows reported, others updated) | `error_bulk_curve_output.png` |
-| 7 | Letter grade for a score above 100 | `RAISE_APPLICATION_ERROR` | `error_invalid_score_output.png` |
+| 1 | Register a student with a duplicate email | `DUP_VAL_ON_INDEX` | [error_duplicate_email_output.png](screenshots/test_error_cases/error_duplicate_email_output.png) |
+| 2 | Update the score of a non-existent enrollment | User-defined exception | [error_update_score_output.png](screenshots/test_error_cases/error_update_score_output.png) |
+| 3 | Drop a non-existent enrollment | `RAISE_APPLICATION_ERROR` | [error_drop_enrollment_output.png](screenshots/test_error_cases/error_drop_enrollment_output.png) |
+| 4 | Transcript for an unknown student | `NO_DATA_FOUND` | [error_no_data_found_output.png](screenshots/test_error_cases/error_no_data_found_output.png) |
+| 5 | Find a last name shared by two students | `TOO_MANY_ROWS` | [error_too_many_rows_output.png](screenshots/test_error_cases/error_too_many_rows_output.png) |
+| 6 | Curve that pushes some scores above 100 | `SAVE EXCEPTIONS` (failed rows reported, others updated) | [error_bulk_curve_output.png](screenshots/test_error_cases/error_bulk_curve_output.png) |
+| 7 | Letter grade for a score above 100 | `RAISE_APPLICATION_ERROR` | [error_invalid_score_output.png](screenshots/test_error_cases/error_invalid_score_output.png) |
 
-All screenshots are in `screenshots/`.
+Screenshots are in `screenshots/test_success_cases/` and `screenshots/test_error_cases/`.
 
 ---
 
@@ -198,6 +198,14 @@ See [`docs/IMPLEMENTATION_NOTES.md`](docs/IMPLEMENTATION_NOTES.md) for details.
 ---
 
 ## 11. AI Usage Statement
+
+We used an AI assistant to:
+
+- Research PL/SQL topics and help us understand some concepts.
+- Help draft parts of the SQL and PL/SQL code.
+- Review our documentation for grammar errors.
+
+We reviewed, ran and tested all the code ourselves, and both of us understand and can explain every part of it.
 
 ---
 
