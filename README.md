@@ -205,7 +205,7 @@ We used an AI assistant to:
 - Help draft parts of the SQL and PL/SQL code.
 - Review our documentation for grammar errors.
 
-We reviewed, ran and tested all the code ourselves, and both of us understand and can explain every part of it.
+We ran and tested all the code ourselves, and both of us understand and can explain every part of it.
 
 ---
 
